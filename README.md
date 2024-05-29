@@ -22,7 +22,7 @@ The first stage involves exploring and analyzing the weather data. The notebook 
    - Data visualization of weather patterns
      
 ## Feature Engineering
-In this stage, the target variable classes are balanced by undersamling the class that has the majority of values and the most important features are chosen using feature selection algorithms. This process is detailed in the notebook: **Feature_Engineering.ipynb**.
+In this stage, the target variable classes are balanced by undersamling the class that has the majority of values and the most important features are chosen using feature selection algorithms. This process is detailed in the notebook: **[`Feature Engineering`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Feature%20Engineering.ipynb)**.
 
 **Key tasks**:
    - Balancing target variable classes
@@ -41,9 +41,9 @@ Here, various models are designed and tested to predict whether it will rain tom
 
 The notebooks for this stage are:
 
-Tree methods.ipynb
-Neural networks full data.ipynb
-Neural networks feature engineering data.ipynb
+[`Ensemble methods`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Tree%20methods.ipynb)
+[`Neural networks full data`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Neural%20networks%20full%20data.ipynb)
+[`Neural networks feature engineering data`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Neural%20networks%20feature%20engineering%20data.ipynb)
 
 ## Models Comparison
 In the final stage, the performance of the models developed in the previous stage is compared. The comparison focuses on metrics such as accuracy, precision, recall, and F1-score. Special attention is given to the differences in performance between the models trained on raw data and those trained on engineered features and some conclusions are drawn.
@@ -52,33 +52,7 @@ In the final stage, the performance of the models developed in the previous stag
   - Model evaluation
   - Performance comparison
 
-The notebook for this stage is: Models comparison.ipynb.
+The notebook for this stage is: 
+[`Models comparison`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Models%20comparison.ipynb) Models comparison.ipynb.
 
-
-
-
-
-The theoretical notes are also available, made mostly through LLM's and some personal notes on [`Notes`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Notes.odt)
-
-## Folder Structure
-- **Genetic Algoritm**: This folder contains implementations of Genetic Algorithms.
-
-  - **Sum of vectors fitness function**:
-    - [`Fitness_function_vectors_sum.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/Fitness_function_vectors_sum.py): Implementation of Genetic Algorithm for optimizing the sum of vectors fitness function in a sequential manner.
-  
-  - **Match string case fitness function**:
-      - [`Match_String_Case.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/Match_String_Case.py): Sequential implementation of Genetic Algorithm for string matching.
-      -  [`Match_String_Case_OOP_format.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/Match_String_Case_OOP_format.py); [`Match_String_Case_OOP_format_2.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/Match_String_Case_OOP_format_2.py): 2 different Object-oriented implementation of Genetic Algorithm for string matching.
-        
-  - **Complex optimization function**:
-      - [`Complex_Optimization_equation.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/Complex_Optimization_equation.py): Sequential implementation of Genetic Algorithm for a complex optimization function
-
-- **Ant Colony Optimization**: Here, you'll find implementations of Ant Colony Optimization.
-
-  - **Travelling salesman**:
-    - [`TravellingSalesman_ACO.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/TravellingSalesman_ACO.py): Sequential implementation of Ant Colony Optimization for solving the Travelling Salesman Problem.
-    - [`TravellingSalesman_ACO_OOP_format.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/TravellingSalesman_ACO_OOP_format.py): Object-oriented implementation of Ant Colony Optimization for solving the Travelling Salesman Problem.
-
-- **Particle Swarm Optimizagion**: This folder contains an implementation of Particle Swarm Optimization.
-  - **Optimization function**:
-    - [`PSO_Simple_fitness_function.py`](https://github.com/antoniocreal/Evolutionary_algorithms/blob/main/Genetic%20Algorithm/PSO_Simple_fitness_function.py) : Implementation of Particle Swarm Optimization in a sequential manner.
+The neural networks, the random forest model and the xgboost models are all made availabe.

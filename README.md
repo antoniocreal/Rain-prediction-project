@@ -31,7 +31,7 @@ In this stage, the target variable classes are balanced by undersamling the clas
    - Balancing target variable classes
    - Selecting the most important features
 
-## Model Design and Testing
+## Models' Design and Testing
 Here, various models are designed and tested to predict whether it will rain tomorrow. The models include ensemble methods, Random Forest and XGBoost, as well as neural networks. This stage is divided into two parts:
 
  - Models trained on the dataset from the data analysis stage
@@ -50,7 +50,7 @@ The notebooks for this stage are:
 
 [`Neural networks feature engineering data`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Neural%20networks%20feature%20engineering%20data.ipynb)
 
-## Models Comparison
+## Models' Comparison
 In the final stage, the performance of the models developed in the previous stage is compared. The comparison focuses on metrics such as accuracy, precision, recall, and F1-score. Special attention is given to the differences in performance between the models trained on raw data and those trained on engineered features and some conclusions are drawn.
 
 **Key tasks**:

@@ -7,8 +7,11 @@ The dataset is taken from https://www.kaggle.com/datasets/jsphyg/weather-dataset
 The primary objective of this project is to predict whether it will rain tomorrow based on historical weather data. The project is divided into the following stages:
 
 **Data Analysis**
+
 **Feature Engineering**
+
 **Models' Design and Testing**
+
 **Models' Comparison**
 
 ## Data Analysis

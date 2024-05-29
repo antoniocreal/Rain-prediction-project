@@ -12,7 +12,7 @@ The primary objective of this project is to predict whether it will rain tomorro
 ### Models' Comparison
 
 ## Data Analysis
-The first stage involves exploring and analyzing the weather data. The notebook combines the data exploratory analysis and data treatment. The objectives are to understand the data distribution, identify missing values, value imputation as much as possible within reason and gain insights into the weather patterns. This stage is documented in the notebook: **(https://github.com/antoniocreal/Rain-prediction-project/blob/main/Data%20Analysis.ipynb)**.
+The first stage involves exploring and analyzing the weather data. The notebook combines the data exploratory analysis and data treatment. The objectives are to understand the data distribution, identify missing values, value imputation as much as possible within reason and gain insights into the weather patterns. This stage is documented in the notebook: **[`Data analysis`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Data%20Analysis.ipynb)**.
 
 - **Key tasks**: 
    - Data cleaning

@@ -83,4 +83,4 @@ There are several potential enhancements for this project:
    - Conduct a more robust post-analysis to better understand the model's strengths and weaknesses.
 
 **Time Series Approach**:
-   - Consider re-framing the project as a time series problem and introduce LSTM layers, which are effective at capturing temporal relationships.
+   - Consider re-framing the project as a time series problem and use LSTM layers for the neural networks, which are effective at capturing temporal relationships.

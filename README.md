@@ -61,3 +61,26 @@ The notebook for this stage is:
 [`Models comparison`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Models%20comparison.ipynb)
 
 The neural networks, the random forest model and the xgboost models are all made availabe.
+
+## Points of possible improvement
+There are several potential enhancements for this project:
+
+**Improved Imputation Methods**:
+   - Some imputations, particularly for the Sunshine variable, were made with models that had relatively low R² scores. More robust models could improve these imputations.
+   - Instead of relying heavily on linear regressions, consider using more KNN-based imputations or even neural network-based imputations.
+
+**Enhanced KNN Imputation**:
+   - Implement cross-validation to determine the optimal number of neighbors and features.
+   - Scale the data properly to improve the performance of KNN imputation.
+
+**Dimensionality Reduction**:
+   - Apply dimensionality reduction techniques to improve model performance and reduce computational complexity.
+
+**Balanced Training for Neural Networks**:
+   - Train the full data neural networks with a balanced distributution of the target variable (rain vs. no rain) to ensure fair comparison and performance.
+
+**Post-Analysis**:
+   - Conduct a more robust post-analysis to better understand the model's strengths and weaknesses.
+
+**Time Series Approach**:
+   - Consider re-framing the project as a time series problem and introduce LSTM layers, which are effective at capturing temporal relationships.

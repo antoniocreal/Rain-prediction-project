@@ -44,7 +44,7 @@ Here, various models are designed and tested to predict whether it will rain tom
 
 The notebooks for this stage are:
 
-[`Ensemble methods`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Tree%20methods.ipynb)
+[`Ensemble methods`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Ensemble%20methods.ipynb)
 
 [`Neural networks full data`](https://github.com/antoniocreal/Rain-prediction-project/blob/main/Neural%20networks%20full%20data.ipynb)
 
